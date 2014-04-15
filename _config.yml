@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Kitek's Page
+tagline:          'Lorem ipsum tagline'
+description:      'Lorem ipsum'
+url:              http://kitek.github.io
+
+author:
+  name:           'Marcin Kitowicz'
+  url:            http://www.kitek.pl
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/kitek
