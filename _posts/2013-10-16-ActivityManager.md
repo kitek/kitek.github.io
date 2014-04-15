@@ -1,6 +1,8 @@
 ---
 layout: post
 title: ActivityManager
+category: Android
+tags: activity GET_TASKS
 ---
 
 W pewnych przypadkach zachodzi potrzeba sprawdzenia czy w naszej aplikacji znajdują się inne "działające" Activity niż to, które obecnie jest na froncie. Można to osiągnąć za pomocą klas ActivityManager i RunningTaskInfo.
