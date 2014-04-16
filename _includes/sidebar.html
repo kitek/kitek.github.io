@@ -1,17 +1,15 @@
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+  <div id="sitebar-owner-info" class="sidebar-item">
+    <img id="sidebar-owner-avatar" src="http://www.gravatar.com/avatar/dcc624668fb08816dad3ed2ed5797769.jpg" alt="Marcin Kitowicz" />
+    <b>Marcin Kitowicz</b><br />
+    Od ponad 7 lat zajmuje się tworzeniem stron WWW opartych głównie na PHP i ZendFramework. Absolwent informatyki na Politechnice Gdańskiej i PWSZ. Poznał wiele technologii, programował w kilku językach. Szybki umysł, specjalista od wszystkiego i niczego.
+    Od przeszło roku samouk i miłośnik platformy Android. Na co dzień użytkownik iOS'a i OSX'a.
+    
   </div>
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
       {% if node.title != null %}

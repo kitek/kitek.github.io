@@ -409,4 +409,11 @@ a.pagination-item:hover {
   margin-left: auto;
   margin-right: auto;
 }
+#sidebar-owner-avatar {
+  float:left;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+#sitebar-owner-info {
 
+}
