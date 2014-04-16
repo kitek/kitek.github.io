@@ -5,19 +5,19 @@ category: Android
 tags: activity GET_TASKS
 ---
 
-W pewnych przypadkach zachodzi potrzeba sprawdzenia czy w naszej aplikacji znajdują się inne "działające" Activity niż to, które obecnie jest na froncie. Można to osiągnąć za pomocą klas ActivityManager i RunningTaskInfo.
+W pewnych przypadkach zachodzi potrzeba sprawdzenia czy w naszej aplikacji znajdują się inne "działające" Activity niż to, które obecnie jest na froncie. Można to osiągnąć za pomocą klas [ActivityManager](http://developer.android.com/reference/android/app/ActivityManager.html){:target="_blank"} i [RunningTaskInfo](http://developer.android.com/reference/android/app/ActivityManager.RunningTaskInfo.html){:target="_blank"}.
 
 {% highlight java %}
 
-ActivityManager mngr = (ActivityManager)getSystemService(ACTIVITY_SERVICE);
-List<RunningTaskInfo> taskList = mngr.getRunningTasks(10);
+ActivityManager m =(ActivityManager)getSystemService(ACTIVITY_SERVICE);
+List<RunningTaskInfo> taskList = m.getRunningTasks(10);
 if (taskList.get(0).numActivities == 1 
 	&& taskList.get(0)
 		.topActivity
 		.getClassName()
 		.equals(this.getClass().getName())) {
 
-		// Tylko jedno activity, te które obecnie jest na froncie
+// Tylko jedno activity, te które obecnie jest na froncie
 
 }
 

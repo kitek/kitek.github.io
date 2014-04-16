@@ -400,3 +400,9 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+/* Moje customizacje */
+.post p {
+  text-align:justify;
+}
+
