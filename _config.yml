@@ -15,7 +15,7 @@ author:
   name:           'Marcin Kitowicz'
   url:            http://www.kitek.pl
 
-paginate:         5
+paginate:         3
 
 # Custom vars
 version:          1.0.0

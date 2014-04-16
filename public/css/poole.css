@@ -405,4 +405,8 @@ a.pagination-item:hover {
 .post p {
   text-align:justify;
 }
+.center img {
+  margin-left: auto;
+  margin-right: auto;
+}
 
