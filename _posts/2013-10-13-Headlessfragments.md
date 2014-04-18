@@ -3,8 +3,8 @@ layout: post
 title: Headless fragments
 category: Android
 tags: asyncTask fragment
+type: post
 ---
-
 Android udostępnia świetne rozwiązanie w postaci fragmentów, które może zostać wykorzystane również jako narzędzie do obejścia "resetowania" naszego Activity przy zmianie orientacji/konfiguracji urządzenia. W sytuacjach gdy potrzebujemy wykonać pewne zadanie w tle (np. AsyncTask: autoryzujący użytkownika przez HTTP Api lub wysyłający duże dane do zewnętrznego serwera) każde obrócenie urządzenia wywoła naszego AsyncTask’a ponownie. Oczywiście możemy zablokować na stałe możliwość zmiany orientacji ekranu lub nadpisać metodę obsługującą zmiany w konfiguracji jednak w większości przypadków nie są to rozwiązania dobre lub odpowiadające naszym wymaganiom.
 Z powodzeniem do takich zadań możemy wykorzystać fragmenty nie posiadające swoich widoków. Poniżej przedstawiam prosty przykład samego fragmentu jak i sposobu jego uruchamiania.
 

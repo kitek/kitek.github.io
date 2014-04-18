@@ -4,6 +4,7 @@ title: ActivityManager
 category: Android
 tags: activity GET_TASKS
 type: post
+description: 'Przykład wykorzystania ActivityManager i RunningTaskInfo'
 ---
 W pewnych przypadkach zachodzi potrzeba sprawdzenia czy w naszej aplikacji znajdują się inne "działające" Activity niż to, które obecnie jest na froncie. Można to osiągnąć za pomocą klas [ActivityManager](http://developer.android.com/reference/android/app/ActivityManager.html){:target="_blank"} i [RunningTaskInfo](http://developer.android.com/reference/android/app/ActivityManager.RunningTaskInfo.html){:target="_blank"}.
 

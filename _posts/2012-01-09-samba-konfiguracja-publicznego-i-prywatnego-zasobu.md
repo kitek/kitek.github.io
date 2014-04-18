@@ -3,6 +3,7 @@ layout: post
 title: Samba – konfiguracja publicznego i prywatnego zasobu
 category: ServerSide
 tags: samba
+type: post
 ---
 Po montażu karty CF w swoim HP t5720 przyszedł czas na skonfigurowanie serwera plików Samba. Zależało mi na stworzeniu jednego publicznego zasobu o nazwie “warez” do którego dostęp posiadać miałby każdy, bez konieczności podawania nazwy użytkownika i hasła. Natomiast drugi zasób (“private”) miał być dostępny tylko dla jednego wybranego systemowego użytkownika. Po kilku próbach i restartach konfiguracja wygląda następująco:
 

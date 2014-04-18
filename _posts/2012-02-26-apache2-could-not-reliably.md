@@ -3,6 +3,7 @@ layout: post
 title: 'apache2: Could not reliably determine the servers fully qualified domain name'
 category: ServerSide
 tags: apache2 ServerName ubuntu
+type: post
 ---
 Jeżeli przy restartowaniu / przeładowaniu ustawień serwera Apache widzisz komunikat:
 

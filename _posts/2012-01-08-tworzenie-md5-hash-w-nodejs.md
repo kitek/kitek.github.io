@@ -3,6 +3,7 @@ layout: post
 title: Tworzenie md5 hash w NodeJS
 category: NodeJS
 tags: samba
+type: post
 ---
 Przydatne np. przy hash’owaniu haseł:
 

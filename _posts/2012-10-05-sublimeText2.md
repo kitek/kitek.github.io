@@ -3,8 +3,8 @@ layout: post
 title: Sublime Text 2
 category: Others
 tags: edytor sublime text
+type: post
 ---
-
 Po online’owej liście ToDo przyszedł czas na świetny edytor Sublime Text 2. Napisany w Pythonie, dostępny praktycznie na wszystkie platformy, z bardzo dużą bazą plugin’ów.
 
 Kilka podstawowych zalet edytora:

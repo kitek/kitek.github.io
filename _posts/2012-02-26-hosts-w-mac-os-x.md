@@ -3,6 +3,7 @@ layout: post
 title: Hosts w Mac OS X
 category: ServerSide
 tags: hosts 'mac os x'
+type: post
 ---
 Jak dodać nowy host w systemie Mac OS X (10.6.8)?
 Otwieramy Terminal i wpisujemy (wymagane będzie podanie naszego hasła):

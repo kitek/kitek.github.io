@@ -3,6 +3,7 @@ layout: post
 title: Memcached
 category: Others
 tags: cache kesz memcached optymalizacja PHP
+type: post
 ---
 Memcached jest systemem keszowania obiektów opracowanym przez [Danga Interactive](http://www.danga.com/){:target="_blank"}. Dzięki niemu możemy przechować w pamięci dowolne dane: zaczynając od zwykłych liczb, ciągów znaków a kończąc na obiektach. Dane umieszczane są w pamięci współdzielonej dostępnej dla innych programów.
 

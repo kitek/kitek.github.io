@@ -3,6 +3,7 @@ layout: post
 title: JSLint will hurt your feelings.
 category: JavaScript 
 tags: ode quality tool Douglas Crockford jslint
+type: post
 ---
 [JSLint](http://www.jslint.com/lint.html){:target="_blank"} jest programem sprawdzający kod JavaScript pod kątem kilkunastu zasad dobrego programowania. Jeżeli programujesz lub robisz review w kodzie JavaScript to narzędzie jest dla Ciebie obowiązkowe.
 

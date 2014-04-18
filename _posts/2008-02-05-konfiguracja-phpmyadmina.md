@@ -3,8 +3,8 @@ layout: post
 title: Konfiguracja phpmyadmin'a
 category: ServerSide
 tags: config phpmyadmin
+type: post
 ---
-
 Mogło by się wydawać sprawą banalną skonfigurowanie [phpMyAdmin'a](http://www.phpmyadmin.net/home_page/index.php){:target="_blank"} jednak dla potomności przedstawiam podstawowy config:
 
 {% highlight php %}
