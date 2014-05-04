@@ -10,14 +10,18 @@
   <link rel="shortcut icon" href="/public/img/favicon.png">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.url}}/atom.xml">
   {% if page.tags %}<meta name="keywords" content="{{page.tags | join: ','}}" />{% else %}<meta name="keywords" content="{{site.keywords | join: ','}}" />{% endif %}
+  <meta property="og:locale" content="pl_PL" />
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+  <meta property="og:url" content="{{site.url}}{{page.url  | remove: "index.html"}}" />
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:image" content="http://www.gravatar.com/avatar/dcc624668fb08816dad3ed2ed5797769.jpg" />
   {% if page.type == "post" %}
   <link rel="author" href="{{site.author.gplus}}" />
   <meta property="og:type" content="article" />
-  {% else %}
-  <meta property="og:type" content="blog" />
+  {% else %}<meta property="og:type" content="blog" />
+    {% if paginator.next_page %}<link rel="next" href="{{site.url}}/page{{paginator.next_page}}" />{% endif %}
+    {% if paginator.previous_page %}<link rel="prev" href="{{site.url}}{% if paginator.page == 2 %}/{% else %}/page{{paginator.previous_page}}{% endif %}" />{% endif %}
+    {% if paginator.page > 1 %}<meta name="robots" content="noindex,follow"/>{% endif %}
   {% endif %}
+  <link rel="canonical" href="{{site.url}}{{page.url | remove: "index.html"}}" />
 </head>
