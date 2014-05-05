@@ -6,7 +6,7 @@ tags: ['todo', 'lista zadań', 'gist', 'github']
 type: post
 description: 'Przykład wykorzystania github gist i języka Markdown do tworzenia prostych list zdań.'
 ---
-Uwielbiam wszelkiego rodzaju listy zadań i narzędzia do ich tworzenia, zarządzania. Od około trzech miesięcy z powodzeniem wykorzystuje do tego [gist.github.com](https://gist.github.com/){:target="_blank"} i język [Markdown](https://help.github.com/articles/markdown-basics){:target="_blank"}. Dzięki jego notacji możemy tworzyć listy posiadające checkbox'y - idealnie pasujące do prostych [ToDo](https://gist.github.com/kitek/11109587){:target="_blank"}.
+Uwielbiam wszelkiego rodzaju listy zadań i narzędzia do ich tworzenia, zarządzania. Od około trzech miesięcy z powodzeniem wykorzystuje do tego [gist.github.com](https://gist.github.com/){:target="_blank"}{:rel="nofollow"} i język [Markdown](https://help.github.com/articles/markdown-basics){:target="_blank"}{:rel="nofollow"}. Dzięki jego notacji możemy tworzyć listy posiadające checkbox'y - idealnie pasujące do prostych [ToDo](https://gist.github.com/kitek/11109587){:target="_blank"}{:rel="nofollow"}.
 
 {% highlight text %}
 Moja lista:
