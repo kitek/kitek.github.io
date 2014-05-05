@@ -97,7 +97,7 @@ Ostatnią opcją jest _scope_, który określa w jakiego typu dokumentach zastos
 - XSL: text.xml.xsl
 - YAML: source.yaml
 
-Jężeli nie możesz znaleźć swojego typu pliku, możesz to sprawdzić wciskając kombinację klawiszy: [ctrl] + [shift] + [p] na Macu lub [ctrl] + [shift] + [alt] + [p] na Windows. Na dolnym pasku po lewej stronie zostanie wyświetlony _scope_ aktualnie otwartego pliku.
+Jeżeli nie możesz znaleźć swojego typu pliku, możesz to sprawdzić wciskając kombinację klawiszy: [ctrl] + [shift] + [p] na Macu lub [ctrl] + [shift] + [alt] + [p] na Windows. Na dolnym pasku po lewej stronie zostanie wyświetlony _scope_ aktualnie otwartego pliku.
 
 Tak przygotowany plik zapisujemy z roszerzeniem ``.sublime-snippet`` w katalogu: 
 
