@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nano skocz do linii
-category: Others
+category: Tools
 tags: ['nano', 'goto line x', 'skocz do linii']
 type: post
 description: 'Otwarcie pliku w edytorze nano z przejściem do podanej linii.'

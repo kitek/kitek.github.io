@@ -4,6 +4,7 @@ title: 'MySQL replikacja'
 category: MySQL
 tags: ['konfiguracja replikacji', 'master', 'MySQL', 'replikacja', 'slave']
 type: post
+description: 'Wprowadzenie i konfiguracja krok po kroku do replikacji baz danych mySQL.'
 ---
 __Replikacja w MySQL__
 
