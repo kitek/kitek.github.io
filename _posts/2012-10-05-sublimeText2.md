@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Sublime Text 2
-category: Others
-tags: edytor sublime text
+category: Tools
+tags: ['edytor','sublime text 2','package control','javascript editor']
 type: post
+description: 'Artykuł przedstawiający edytor plików tekstowych Sublime Text 2. Jego zalety i wady.'
 ---
 Po online’owej [liście ToDo](/2012/10/04/workflowy-make-lists-not-war/) przyszedł czas na świetny edytor Sublime Text 2. Napisany w Pythonie, dostępny praktycznie na wszystkie platformy, z bardzo dużą bazą plugin’ów.
 
@@ -21,4 +22,4 @@ Kilka podstawowych zalet edytora:
 
 Program można ściągnąć i korzystać z niego za darmo (pełna wersja to koszt 59$). Jedyne "nieudogodnienie" wersji free to wyskakujące co pewien czas (co któryś zapis dokumentu) okno z informacją zachęcającą do zakupu programu.
 
-Polecam zapoznanie się z features’ami na [stronie samego programu](http://www.sublimetext.com/){:target="_blank"} jak również obejrzenie kliku [video tutoriali](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/){:target="_blank"}.
+Polecam zapoznanie się z features’ami na [stronie samego programu](http://www.sublimetext.com/){:target="_blank"}{:rel="nofollow"} jak również obejrzenie kliku [video tutoriali](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/){:target="_blank"}{:rel="nofollow"}.
