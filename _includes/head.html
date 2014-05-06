@@ -1,6 +1,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  {% if page.type == "post" %}<script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","name":"{{ page.title }}","url":"{{ site.url }}{{ page.url }}","datePublished":"{{ page.date | date: '%Y-%m-%d' }}","author":{"@type":"Person","name":"Marcin Kitowicz","url":"https://plus.google.com/u/0/+MarcinKitowicz/"}}</script>{% endif %}
   <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <link rel="stylesheet" href="/public/css/poole.min.css">
