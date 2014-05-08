@@ -2,7 +2,7 @@
 layout: post
 title: Android optymalizacja UI
 category: Android
-tags: optimizing android ui
+tags: ['optimizing','android ui','optymalizacja android','android dobre praktyki','android memory leaks']
 type: post
 description: 'Kilka wartych zapamiętania technik optymalizacyjnych dla platformy Android'
 ---

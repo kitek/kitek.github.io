@@ -2,7 +2,7 @@
 layout: post
 title: ActivityManager
 category: Android
-tags: activity GET_TASKS
+tags: ['activity','GET_TASKS','ActivityManager','RunningTaskInfo','android']
 type: post
 description: 'Przykład wykorzystania ActivityManager i RunningTaskInfo'
 ---
