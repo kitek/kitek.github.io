@@ -1,4 +1,4 @@
 kitek.github.io
 ===============
 
-Blog oparty o Git pages
+Kitek's Page &middot; Dziennik programisty / webdeveloper'a
