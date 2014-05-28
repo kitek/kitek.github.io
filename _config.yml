@@ -7,7 +7,7 @@ permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            Kitek's Page
-tagline:          Dziennik programisty / webdeveloper'a
+tagline:          Blog programisty / webdeveloper'a
 description:      'Kitek.pl - strona domowa Marcina Kitowicza - blog, PHP, MySQL, JavaScript, NodeJS i wiele innych'
 url:              http://kitek.pl
 
