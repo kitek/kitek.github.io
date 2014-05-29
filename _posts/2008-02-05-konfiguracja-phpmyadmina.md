@@ -2,8 +2,10 @@
 layout: post
 title: Konfiguracja phpmyadmin'a
 category: ServerSide
-tags: config phpmyadmin
+tags: ['config','phpmyadmin','setup']
+description: 'Przykład jak prosto i szybko skonfigurować phpmyadmin.'
 type: post
+redirect_from: "/serverside/2008/02/05/konfiguracja-phpmyadmina/"
 ---
 Mogło by się wydawać sprawą banalną skonfigurowanie [phpMyAdmin'a](http://www.phpmyadmin.net/home_page/index.php){:target="_blank"} jednak dla potomności przedstawiam podstawowy config:
 
