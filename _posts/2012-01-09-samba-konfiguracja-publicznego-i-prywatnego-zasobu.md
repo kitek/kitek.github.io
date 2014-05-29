@@ -5,6 +5,7 @@ category: ServerSide
 tags: ['samba','konfiguracja samba','server samba','zasoby współdzielone','smb.conf','smbpasswd']
 type: post
 description: 'Przewodnik krok po kroku jak skonfigurować Samba Server. Tworzenie publicznych i prywatnych zasobów.'
+redirect_from: '/serverside/2012/01/09/samba-konfiguracja-publicznego-i-prywatnego-zasobu/'
 ---
 Po montażu karty CF w swoim [HP t5720](/2011/11/29/hp-t5720-montaz-karty-compact-flash/) przyszedł czas na skonfigurowanie serwera plików Samba. Zależało mi na stworzeniu jednego publicznego zasobu o nazwie “warez” do którego dostęp posiadać miałby każdy, bez konieczności podawania nazwy użytkownika i hasła. Natomiast drugi zasób (“private”) miał być dostępny tylko dla jednego wybranego systemowego użytkownika. Po kilku próbach i restartach konfiguracja wygląda następująco:
 

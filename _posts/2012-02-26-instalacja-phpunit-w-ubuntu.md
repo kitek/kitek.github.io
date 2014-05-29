@@ -2,8 +2,10 @@
 layout: post
 title: Instalacja PHPUnit w Ubuntu
 category: ServerSide
-tags: php-pear phpunit ubuntu
+tags: ['php-pear','phpunit','ubuntu']
+description: 'Poradnik jak szybko i sprawnie zainstalować PHPUnit w systemie Ubuntu.'
 type: post
+redirect_from: '/serverside/2012/02/26/instalacja-phpunit-w-ubuntu/'
 ---
 PHPUnit’a w Ubuntu zainstalować możemy za pomocą poniższych komend (zakładając, że mamy już wcześniej zainstalowanego php5):
 
