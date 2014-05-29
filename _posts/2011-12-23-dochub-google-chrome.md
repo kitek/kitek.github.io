@@ -2,8 +2,10 @@
 layout: post
 title: DocHub + Google Chrome
 category: Others
-tags: dokumentacja wyszukiwarka
+tags: ['dokumentacja','wyszukiwarka','DocHub','google chrome']
+description: 'Konfiguracja własnej wyszukiwarki w Google Chrome wraz z serwisem Dochub.io'
 type: post
+redirect_from: '/others/2011/12/23/dochub-google-chrome/'
 ---
 [Dochub.io](http://dochub.io/){:target="_blank"} jest stroną przechowującą w bardzo przystępny sposób dokumentację do: JavaScript, PHP, HTML, CSS, jQuery, DOM. Od razu do głowy wpadł mi pomysł by w przeglądarce Google Chrome ustawić sobie dodatkowe wyszukiwarki.
 

@@ -5,6 +5,7 @@ category: Others
 tags: ['lista','zadań','todo list','workflowy']
 type: post
 description: 'Workflowy - prosta lista zadań, zakupów, notatek, spotkań, planów.'
+redirect_from: '/others/2012/10/04/workflowy-make-lists-not-war/'
 ---
 Prosta lista zadań, zakupów, notatek, spotkań, planów – niepotrzebne skreślić. Korzystam od dawien dawna, ale nigdy nie miałem okazji tym fajnym narzędziem się pochwalić. [Workflowy](https://workflowy.com/?ref=4308f54){:target="_blank"}{:rel="nofollow"} to taki nieskończony, jednostronicowy notatnik przeznaczony do tworzenia list z kilkoma bardzo użytecznymi funkcjami m.in.:
 
