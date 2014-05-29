@@ -5,6 +5,7 @@ category: Tools
 tags: ['edytor','sublime text 2','package control','javascript editor']
 type: post
 description: 'Artykuł przedstawiający edytor plików tekstowych Sublime Text 2. Jego zalety i wady.'
+redirect_from: '/2012/10/05/sublime-text-2/'
 ---
 Po online’owej [liście ToDo](/2012/10/04/workflowy-make-lists-not-war/) przyszedł czas na świetny edytor Sublime Text 2. Napisany w Pythonie, dostępny praktycznie na wszystkie platformy, z bardzo dużą bazą plugin’ów.
 
