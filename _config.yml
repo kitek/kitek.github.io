@@ -1,6 +1,8 @@
 # Dependencies
 markdown:         kramdown
-pygments:         true
+highlighter: pygments
+gems:
+  - jekyll-redirect-from
 
 # Permalinks
 permalink:        /:year/:month/:day/:title/
