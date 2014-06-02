@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Tworzenie md5 hash w NodeJS
+title: "Tworzenie md5 hash w NodeJS"
 category: NodeJS
-tags: samba
+tags: ['md5','hash','crypto']
 type: post
+description: 'Szybki sposób na wygenerowanie hash md5.'
+redirect_from: "/nodejs/2012/01/08/tworzenie-md5-hash-w-nodejs/"
 ---
 Przydatne np. przy hash’owaniu haseł:
 

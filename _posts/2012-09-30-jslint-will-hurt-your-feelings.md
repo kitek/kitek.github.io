@@ -5,6 +5,7 @@ category: JavaScript
 tags: ['code quality tool','Douglas Crockford','jslint','javascript błędy']
 type: post
 description: 'JSLint jest programem sprawdzający kod JavaScript pod kątem kilkunastu zasad dobrego programowania.'
+redirect_from: "/javascript/2012/09/30/jslint-will-hurt-your-feelings/"
 ---
 [JSLint](http://www.jslint.com/lint.html){:target="_blank"}{:rel="nofollow"} jest programem sprawdzający kod JavaScript pod kątem kilkunastu zasad dobrego programowania. Jeżeli programujesz lub robisz review w kodzie JavaScript to narzędzie jest dla Ciebie obowiązkowe.
 
