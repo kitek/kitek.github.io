@@ -18,11 +18,13 @@
   <meta property="og:image" content="http://www.gravatar.com/avatar/dcc624668fb08816dad3ed2ed5797769.jpg" />
   {% if page.type == "post" %}
   <link rel="author" href="{{site.author.gplus}}" />
+  <meta property="article:author" content="{{site.author.gplus}}" />
   <meta property="og:type" content="article" />
   {% else %}<meta property="og:type" content="blog" />
     {% if paginator.next_page %}<link rel="next" href="{{site.url}}/page{{paginator.next_page}}" />{% endif %}
     {% if paginator.previous_page %}<link rel="prev" href="{{site.url}}{% if paginator.page == 2 %}/{% else %}/page{{paginator.previous_page}}{% endif %}" />{% endif %}
     {% if paginator.page > 1 %}<meta name="robots" content="noindex,follow"/>{% endif %}
   {% endif %}
+  <meta name="author" content="Marcin Kitowicz" />
   <link rel="canonical" href="{{site.url}}{{page.url | remove: "index.html"}}" />
 </head>
