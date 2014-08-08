@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Redis - ogranicznone kolekcje'
+title: 'Redis - ograniczone kolekcje'
 category: JavaScript
 tags: ['redis','nodeJS','capped collection','logi']
 type: post
